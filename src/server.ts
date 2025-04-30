@@ -38,7 +38,7 @@ app.get("/", (req: Request, res: Response) => {
 });
 
 // Routes
-app.use("/api/auth", authRoutes);
+app.use("/auth", authRoutes);
 app.use("/api/users", userRoutes);
 app.use("/api/bucket-list", bucketListRoutes);
 app.use("/api/profile", profileRoutes);
