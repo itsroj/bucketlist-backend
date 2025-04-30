@@ -19,7 +19,6 @@ declare global {
     }
   }
 }
-
 export const authenticateToken = async (
   req: Request,
   res: Response,
